@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* main section */
+.main{
+    background-image: url(/img/website-parallax-background-C.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 91vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid #fa125f;
+    width: 40%;
+    color: whitesmoke;
+
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: #fa125f;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.main .bt1:hover{
+    background-color: transparent;
+    border: 1px solid  #fa125f;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+.about img{
+    -webkit-box-shadow: 17px 10px 22px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 10px 22px -5px rgba(0,0,0,0.75);
+box-shadow: 17px 10px 22px -5px rgba(0,0,0,0.75);
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    background-color: rgb(207, 206, 206);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    -webkit-box-shadow: 10px 0px 16px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 0px 16px -1px rgba(0,0,0,0.75);
+box-shadow: 10px 0px 16px -1px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation:load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 12px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 95%;
+    }
+}
+.pro-value2{
+    animation:load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation:load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation:load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value5{
+    animation:load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value6{
+    animation:load6 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+@keyframes load2{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 73%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes load5{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 78%;
+    }
+}
+@keyframes load6{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width: 69%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.circle:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+footer{
+    background-color: black;
+    color: lightgray;
+
+}
+.socialshare i{
+    padding: 10px;
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+}
+.socialshare{
+    margin: auto;
+}
